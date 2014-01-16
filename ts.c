@@ -37,7 +37,7 @@ int main(int argc , char * argv[]){
 		int i = 0;
 		char * buff[512];
 		int re = 0;
-		while(true){
+		while(1){
 			re = recv(conn,buff,sizeof(buff),0);
 			if(re > 0){
 				printf("recv : %s \n",buff);
