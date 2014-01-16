@@ -7,6 +7,5 @@
 #include <errno.h>
 #include <string.h>
 
-int main(){
-    return 0;
-}
+#include "tnet_sock.h"
+
